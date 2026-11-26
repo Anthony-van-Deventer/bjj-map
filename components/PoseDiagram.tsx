@@ -9,10 +9,20 @@ type Point = readonly [number, number];
 
 const line = (...points: Point[]) => points.map(([x, y], i) => `${i ? "L" : "M"}${x} ${y}`).join(" ");
 
-function Athlete({ pose, colors, dimmed }: { pose: AthletePose; colors: { near: string; far: string }; dimmed: boolean }) {
+export const POSE_VIEWBOX = "0 10 200 112";
+
+export function Athlete({
+  pose,
+  colors,
+  opacity = 1,
+}: {
+  pose: AthletePose;
+  colors: { near: string; far: string };
+  opacity?: number;
+}) {
   const limb = { fill: "none", strokeLinecap: "round", strokeLinejoin: "round" } as const;
   return (
-    <g opacity={dimmed ? 0.35 : 1}>
+    <g opacity={opacity}>
       <path d={line(pose.pelvis, pose.rKnee, pose.rFoot)} stroke={colors.far} strokeWidth={7} {...limb} />
       <path d={line(pose.neck, pose.rElbow, pose.rHand)} stroke={colors.far} strokeWidth={6} {...limb} />
       <path d={line(pose.neck, pose.pelvis)} stroke={colors.near} strokeWidth={13} {...limb} />
@@ -36,10 +46,10 @@ export function PoseDiagram({
 }) {
   const dim = (side: "top" | "bottom") => you === "top" || you === "bottom" ? you !== side : false;
   return (
-    <svg viewBox="0 10 200 112" className={className} role="img" aria-label={`${pose.id} diagram`}>
+    <svg viewBox={POSE_VIEWBOX} className={className} role="img" aria-label={`${pose.id} diagram`}>
       {showGround && <rect x={0} y={116} width={200} height={6} rx={3} fill="currentColor" opacity={0.12} />}
-      <Athlete pose={pose.bottom} colors={ATHLETE_COLORS.bottom} dimmed={dim("bottom")} />
-      <Athlete pose={pose.top} colors={ATHLETE_COLORS.top} dimmed={dim("top")} />
+      <Athlete pose={pose.bottom} colors={ATHLETE_COLORS.bottom} opacity={dim("bottom") ? 0.35 : 1} />
+      <Athlete pose={pose.top} colors={ATHLETE_COLORS.top} opacity={dim("top") ? 0.35 : 1} />
     </svg>
   );
 }
