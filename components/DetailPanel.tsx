@@ -3,6 +3,7 @@
 import type { Content, Side, Technique } from "@/lib/schema";
 import { PERCENTAGE_LABEL, SIDE_COLOR, SIDE_LABEL, TYPE_COLORS } from "@/lib/styles";
 import { buildAnimation } from "@/lib/animation";
+import { DevLink } from "./DevLink";
 import { PoseDiagram } from "./PoseDiagram";
 import { TechniqueAnimation } from "./TechniqueAnimation";
 
@@ -87,6 +88,7 @@ export function DetailPanel({ content, selection, onSelectTechnique, onSelectPos
           </div>
           <h2 className="text-xl font-bold">{position.name}</h2>
           {perspective && <p className="text-sm text-slate-400">You are: {perspective.role}</p>}
+          <DevLink href={`/dev/pose-editor?pose=${position.pose ?? position.id}`}>Edit pose</DevLink>
         </header>
         {pose && (
           <div className="rounded-xl border border-slate-800 bg-slate-900 p-3">
@@ -171,6 +173,7 @@ export function DetailPanel({ content, selection, onSelectTechnique, onSelectPos
             "Submission 🏁"
           )}
         </p>
+        <DevLink href={`/dev/pose-editor?technique=${technique.id}`}>Edit animation</DevLink>
       </header>
       {animation ? (
         <TechniqueAnimation key={technique.id} animation={animation} />

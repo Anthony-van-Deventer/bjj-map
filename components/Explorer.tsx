@@ -5,6 +5,7 @@ import { buildTree, stateKey, type TreeNode } from "@/lib/graph";
 import { RULESETS, TECHNIQUE_TYPES, type Content, type Ruleset, type Side } from "@/lib/schema";
 import { SIDE_COLOR, SIDE_LABEL, TYPE_COLORS } from "@/lib/styles";
 import { DetailPanel, type Selection } from "./DetailPanel";
+import { DevLink } from "./DevLink";
 import { GraphView } from "./GraphView";
 
 const RULESET_LABEL: Record<Ruleset, string> = { nogi: "No-Gi", gi: "Gi" };
@@ -132,6 +133,7 @@ export function Explorer({ content: allContent }: { content: Content }) {
         >
           Expand 2 levels
         </button>
+        <DevLink href="/dev/pose-editor">Pose editor</DevLink>
         <div className="ml-auto hidden flex-wrap gap-3 text-xs text-slate-400 lg:flex">
           {TECHNIQUE_TYPES.map((t) => (
             <span key={t} className="flex items-center gap-1.5">

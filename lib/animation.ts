@@ -29,11 +29,13 @@ const BONES: [Joint, Joint][] = [
   ["rKnee", "rFoot"],
 ];
 
-const slotOf = (side: Side): Slot => (side === "bottom" ? "bottom" : "top");
+export const slotOf = (side: Side): Slot => (side === "bottom" ? "bottom" : "top");
 const other = (slot: Slot): Slot => (slot === "top" ? "bottom" : "top");
 
 const mirrorAthlete = (a: AthletePose): AthletePose =>
   Object.fromEntries(JOINTS.map((j) => [j, [200 - a[j][0], a[j][1]]])) as AthletePose;
+
+export const mirrorPose = (p: Pose): Pose => ({ ...p, top: mirrorAthlete(p.top), bottom: mirrorAthlete(p.bottom) });
 
 function toFrame(pose: Pose, performer: Slot, mirror: boolean): Frame {
   const m = mirror ? mirrorAthlete : (a: AthletePose) => a;
