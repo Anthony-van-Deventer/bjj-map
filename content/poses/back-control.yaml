@@ -1,3 +1,3 @@
 id: back-control
-top: {head: [78,34], neck: [76,46], pelvis: [62,98], lElbow: [94,52], lHand: [106,64], rElbow: [84,72], rHand: [104,70], lKnee: [92,80], lFoot: [106,98], rKnee: [88,88], rFoot: [104,104]}
+top: {head: [80,33], neck: [76,46], pelvis: [69,93], lElbow: [84,72], lHand: [104,70], rElbow: [94,52], rHand: [106,64], lKnee: [88,88], lFoot: [116,90], rKnee: [92,80], rFoot: [109,84]}
 bottom: {head: [98,40], neck: [96,50], pelvis: [90,92], lElbow: [110,62], lHand: [104,50], rElbow: [114,70], rHand: [106,56], lKnee: [124,90], lFoot: [150,110], rKnee: [120,96], rFoot: [146,114]}

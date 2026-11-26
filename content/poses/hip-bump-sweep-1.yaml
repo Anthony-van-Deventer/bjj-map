@@ -1,0 +1,3 @@
+id: hip-bump-sweep-1
+top: {head: [128,36], neck: [126,48], pelvis: [134,82], lElbow: [118,62], lHand: [108,72], rElbow: [122,66], rHand: [112,78], lKnee: [120,112], lFoot: [156,114], rKnee: [126,112], rFoot: [160,113]}
+bottom: {head: [100,63], neck: [96,74], pelvis: [92,104], lElbow: [112,60], lHand: [124,56], rElbow: [80,96], rHand: [72,112], lKnee: [118,88], lFoot: [130,112], rKnee: [112,94], rFoot: [124,114]}

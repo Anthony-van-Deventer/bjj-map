@@ -58,6 +58,17 @@ export const CounterSchema = z.object({
   technique: id.optional(),
 });
 
+export const KeyframeSchema = z.object({
+  pose: id,
+  performer: z.enum(["top", "bottom"]),
+  mirror: z.boolean().default(false),
+});
+
+export const AnimationSchema = z.object({
+  keyframes: z.array(KeyframeSchema).default([]),
+  mirrorEnd: z.boolean().default(false),
+});
+
 export const TechniqueSchema = z.object({
   id,
   name: z.string(),
@@ -71,6 +82,7 @@ export const TechniqueSchema = z.object({
   steps: z.array(z.string()).default([]),
   counters: z.array(CounterSchema).default([]),
   sources: z.array(z.string()).default([]),
+  animation: AnimationSchema.optional(),
 });
 
 const Point = z.tuple([z.number(), z.number()]);
@@ -103,6 +115,7 @@ export type Perspective = z.infer<typeof PerspectiveSchema>;
 export type Position = z.infer<typeof PositionSchema>;
 export type Technique = z.infer<typeof TechniqueSchema>;
 export type Counter = z.infer<typeof CounterSchema>;
+export type Keyframe = z.infer<typeof KeyframeSchema>;
 export type AthletePose = z.infer<typeof AthletePoseSchema>;
 export type Pose = z.infer<typeof PoseSchema>;
 

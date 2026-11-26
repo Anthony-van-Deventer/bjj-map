@@ -13,3 +13,8 @@ steps:
 counters:
   - name: Sit back down
     note: Drop your weight back and post the near hand, which sets up the kimura.
+animation:
+  keyframes:
+    - { pose: hip-bump-sweep-1, performer: bottom }
+    - { pose: hip-bump-sweep-2, performer: bottom }
+  mirrorEnd: true

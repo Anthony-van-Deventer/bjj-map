@@ -41,6 +41,22 @@ Validation fails when a technique points to an unknown position or side, a count
 
 Each pose is 11 joints per athlete (`head, neck, pelvis, l/rElbow, l/rHand, l/rKnee, l/rFoot`) in a 200×120 coordinate space, with the ground at `y≈115`. The top athlete renders in blue and the bottom athlete in orange. The `<PoseDiagram>` component draws them, so a new position needs only data, no artwork.
 
+### Pose editor and animations
+
+Run `npm run dev` and open `/dev/pose-editor`. Drag the joints, then click **Save to content/** (dev only) or **Copy YAML**.
+
+Every technique animates in the detail panel. Without keyframes, it tweens from the `from` position's pose to the `to` position's pose. To show the real mechanics, add intermediate poses:
+
+```yaml
+animation:
+  keyframes:
+    - { pose: hip-bump-sweep-1, performer: bottom } # which slot "you" occupy in this pose
+    - { pose: hip-bump-sweep-2, performer: bottom, mirror: false }
+  mirrorEnd: true # mirror the final position's pose so the direction matches
+```
+
+The athlete performing the move keeps its colour throughout the animation. Interpolation is bone-based (angles and lengths), so limbs rotate instead of stretching. To make a keyframe, open the start pose in the editor, use **Duplicate as…**, and set the previous pose as the onion skin.
+
 ### Gi vs no-gi
 
 Every position and technique has `rulesets` (default `[nogi]`). To add gi content, tag it with `[gi]` or `[nogi, gi]`. The Gi/No-Gi toggle appears automatically once there's content for both.

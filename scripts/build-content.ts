@@ -83,6 +83,10 @@ for (const t of techniques) {
       errors.push(`technique "${t.id}": position "${t.to.position}" has no "${t.to.side}" perspective`);
   }
 
+  for (const k of t.animation?.keyframes ?? []) {
+    if (!poseIds.has(k.pose)) errors.push(`technique "${t.id}": keyframe references unknown pose "${k.pose}"`);
+  }
+
   for (const c of t.counters) {
     if (c.technique && !techniqueIds.has(c.technique))
       errors.push(`technique "${t.id}": counter references unknown technique "${c.technique}"`);

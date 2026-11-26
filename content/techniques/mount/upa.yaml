@@ -13,3 +13,6 @@ steps:
 counters:
   - name: Base wide
     note: Post a hand and keep your knee wide.
+animation:
+  keyframes:
+    - { pose: upa-1, performer: bottom }

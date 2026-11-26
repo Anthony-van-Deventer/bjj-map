@@ -2,7 +2,9 @@
 
 import type { Content, Side, Technique } from "@/lib/schema";
 import { PERCENTAGE_LABEL, SIDE_COLOR, SIDE_LABEL, TYPE_COLORS } from "@/lib/styles";
+import { buildAnimation } from "@/lib/animation";
 import { PoseDiagram } from "./PoseDiagram";
+import { TechniqueAnimation } from "./TechniqueAnimation";
 
 export type Selection =
   | { kind: "position"; position: string; side: Side }
@@ -138,6 +140,8 @@ export function DetailPanel({ content, selection, onSelectTechnique, onSelectPos
   const from = positionById.get(technique.from);
   const to = technique.to ? positionById.get(technique.to.position) : undefined;
   const techniqueById = new Map(content.techniques.map((t) => [t.id, t]));
+  const animation = buildAnimation(technique, content);
+  const fromPose = from && poseById.get(from.pose ?? from.id);
 
   return (
     <div className="space-y-5">
@@ -168,6 +172,15 @@ export function DetailPanel({ content, selection, onSelectTechnique, onSelectPos
           )}
         </p>
       </header>
+      {animation ? (
+        <TechniqueAnimation key={technique.id} animation={animation} />
+      ) : (
+        fromPose && (
+          <div className="rounded-xl border border-slate-800 bg-slate-900 p-3">
+            <PoseDiagram pose={fromPose} you={technique.side} className="w-full text-white" />
+          </div>
+        )
+      )}
       <p className="text-sm text-slate-300">{technique.summary}</p>
       {technique.steps.length > 0 && (
         <Section title="Steps">
