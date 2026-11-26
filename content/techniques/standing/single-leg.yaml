@@ -1,0 +1,17 @@
+id: single-leg
+name: Single Leg Takedown
+type: takedown
+from: standing
+side: neutral
+to: { position: half-guard, side: top }
+percentage: high
+summary: Attack one leg and finish by running the pipe or with a dump. It's the most common takedown in no-gi.
+steps:
+  - Shoot on the lead leg, head on the inside
+  - Lift the leg between your legs or to your hip
+  - Turn the corner or run the pipe to finish
+counters:
+  - name: Whizzer and hop
+    note: Overhook their arm, hips in, and hop away.
+  - name: Guillotine
+    technique: guillotine

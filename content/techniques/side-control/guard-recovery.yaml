@@ -1,0 +1,15 @@
+id: guard-recovery
+name: Frame and Shrimp Recovery
+type: escape
+from: side-control
+side: bottom
+to: { position: closed-guard, side: bottom }
+percentage: high
+summary: Frame against the neck and hip, shrimp and put your knee back in.
+steps:
+  - Frame your forearm against their neck, other hand on the hip
+  - Bridge, then shrimp your hips out
+  - Put your knee back in and recover guard
+counters:
+  - name: Switch hips and crossface
+    note: Flatten them and stay heavy.

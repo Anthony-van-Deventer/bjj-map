@@ -1,0 +1,15 @@
+id: arm-drag-back-take
+name: Arm Drag to Back
+type: transition
+from: butterfly-guard
+side: bottom
+to: { position: back-control, side: top }
+percentage: high
+summary: Drag their arm across your body and climb to their back.
+steps:
+  - Two-on-one grip on the wrist and triceps
+  - Pull the arm across and shift your hips out
+  - Reach for the far lat and climb to the back
+counters:
+  - name: Pull the elbow back
+    note: Tighten the arm and face them square.

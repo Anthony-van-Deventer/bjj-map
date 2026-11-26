@@ -1,0 +1,15 @@
+id: back-escape
+name: Shoulder Slide Back Escape
+type: escape
+from: back-control
+side: bottom
+to: { position: closed-guard, side: top }
+percentage: medium
+summary: Slide your back to the mat on the underhook side and turn in.
+steps:
+  - Defend the choke two-on-one
+  - Kick off the bottom hook
+  - Slide your shoulders to the mat and turn into them
+counters:
+  - name: Re-take the back
+    note: Follow with the seatbelt and get a new hook in.

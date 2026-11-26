@@ -1,0 +1,15 @@
+id: slx-escape
+name: Single Leg X Escape
+type: escape
+from: single-leg-x
+side: top
+to: { position: butterfly-guard, side: top }
+percentage: medium
+summary: Push the knees down, free your leg and pass.
+steps:
+  - Base on your other foot and push their knee down
+  - Turn your knee in and pull the leg out
+  - Back into passing position
+counters:
+  - name: Saddle entry
+    technique: saddle-entry

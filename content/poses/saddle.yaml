@@ -1,0 +1,3 @@
+id: saddle
+top: {head: [172,92], neck: [162,94], pelvis: [128,104], lElbow: [150,100], lHand: [140,112], rElbow: [166,104], rHand: [172,114], lKnee: [110,92], lFoot: [92,94], rKnee: [140,88], rFoot: [152,112]}
+bottom: {head: [30,100], neck: [42,98], pelvis: [86,104], lElbow: [70,88], lHand: [96,92], rElbow: [66,94], rHand: [94,100], lKnee: [108,84], lFoot: [128,100], rKnee: [106,96], rFoot: [124,108]}

@@ -1,0 +1,17 @@
+id: kimura-guard
+name: Kimura from Guard
+type: submission
+from: closed-guard
+side: bottom
+percentage: high
+summary: Figure-four grip on the wrist with a shoulder lock. It chains well with the hip bump sweep.
+steps:
+  - Wait for them to post a hand
+  - Grip the wrist and sit up, reaching over the shoulder
+  - Lock the figure four, then rotate the arm behind their back
+counters:
+  - name: Grab your own leg
+    note: Protect the arm and then posture up.
+  - name: Hip bump counter-flow
+    technique: hip-bump-sweep
+    note: If they posture back, the hip bump opens up.

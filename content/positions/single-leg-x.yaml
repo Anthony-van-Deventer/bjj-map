@@ -1,0 +1,23 @@
+id: single-leg-x
+name: Single Leg X (Ashi Garami)
+category: leg-entanglement
+summary: The bottom player controls one leg, with one foot on the hip and the other behind the knee. It's a hub for sweeps and the saddle.
+perspectives:
+  bottom:
+    role: Entangler
+    goals:
+      - Sweep them by off-balancing the trapped leg
+      - Climb to the saddle for heel hooks
+    keyPoints:
+      - Hug the trapped leg tight to your chest
+      - Push their hip away with your foot to break their base
+      - Keep the knee line, don't let them free their knee
+  top:
+    role: Defending the entanglement
+    goals:
+      - Keep your base and free the leg
+      - Pass once you're free
+    keyPoints:
+      - Keep your heel hidden and your knee pointed down
+      - Push their knees and hips down
+      - Free your knee line before you try to pass

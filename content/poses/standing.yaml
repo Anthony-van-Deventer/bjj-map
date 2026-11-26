@@ -1,0 +1,3 @@
+id: standing
+top: {head: [70,30], neck: [72,40], pelvis: [68,72], lElbow: [85,52], lHand: [98,48], rElbow: [80,58], rHand: [95,60], lKnee: [80,92], lFoot: [78,115], rKnee: [60,94], rFoot: [52,115]}
+bottom: {head: [130,30], neck: [128,40], pelvis: [132,72], lElbow: [115,52], lHand: [102,48], rElbow: [120,58], rHand: [105,60], lKnee: [120,92], lFoot: [122,115], rKnee: [140,94], rFoot: [148,115]}

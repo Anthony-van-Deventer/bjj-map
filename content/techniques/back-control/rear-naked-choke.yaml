@@ -1,0 +1,18 @@
+id: rear-naked-choke
+name: Rear Naked Choke
+type: submission
+from: back-control
+side: top
+percentage: high
+summary: Arm around the neck and squeeze from behind. It's the most common submission in no-gi competition.
+steps:
+  - Win the hand fight with the seatbelt
+  - Choking arm under the chin
+  - Lock the figure four, head on the opposite side, and squeeze
+counters:
+  - name: Two-on-one the choking arm
+    note: Both hands on the wrist and pull down.
+  - name: Back escape
+    technique: back-escape
+sources:
+  - ADCC and IBJJF submission stats

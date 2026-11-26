@@ -1,0 +1,16 @@
+id: guard-break-stand
+name: Standing Guard Break
+type: transition
+from: closed-guard
+side: top
+to: { position: butterfly-guard, side: top }
+percentage: high
+summary: Stand up in posture and let gravity break their ankles open.
+steps:
+  - Control both their hips or biceps
+  - Step up one leg at a time with your back straight
+  - Knee in the middle, and push the leg down to open the guard
+counters:
+  - name: Hip bump / sweep
+    technique: hip-bump-sweep
+    note: Attack as soon as they post to stand.

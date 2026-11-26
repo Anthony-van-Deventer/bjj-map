@@ -1,0 +1,15 @@
+id: saddle-entry
+name: Saddle Entry
+type: transition
+from: single-leg-x
+side: bottom
+to: { position: saddle, side: bottom }
+percentage: high
+summary: Swing your outside leg between their legs and triangle your feet. It's the most important heel hook entry.
+steps:
+  - Off-balance them so they sit down
+  - Swing your outside leg to the inside
+  - Triangle your feet and pinch your knees
+counters:
+  - name: Turn the hip away
+    note: Kill the angle by turning your knee down.

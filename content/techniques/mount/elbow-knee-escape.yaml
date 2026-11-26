@@ -1,0 +1,15 @@
+id: elbow-knee-escape
+name: Elbow-Knee Escape
+type: escape
+from: mount
+side: bottom
+to: { position: half-guard, side: bottom }
+percentage: high
+summary: Shrimp, bring your elbow to your knee and recover half guard.
+steps:
+  - Turn to your side, elbow tight
+  - Shrimp and push their knee down
+  - Trap their leg in half guard
+counters:
+  - name: Climb high
+    note: Knees to the armpits so the elbows can't come in.

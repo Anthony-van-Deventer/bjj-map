@@ -1,0 +1,15 @@
+id: dogfight-sweep
+name: Dogfight Sweep
+type: sweep
+from: half-guard
+side: bottom
+to: { position: side-control, side: top }
+percentage: medium
+summary: From the underhook to your knees, reach for the far leg and drive them over.
+steps:
+  - Underhook and come up to the dogfight
+  - Reach for the far knee or ankle
+  - Drive into them and turn the corner
+counters:
+  - name: Whizzer and hip in
+    note: Overhook the arm and sprawl your hips.

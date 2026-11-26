@@ -1,0 +1,15 @@
+id: mount-transition
+name: Knee Slide to Mount
+type: transition
+from: side-control
+side: top
+to: { position: mount, side: top }
+percentage: high
+summary: Slide your knee across their belly into mount.
+steps:
+  - Control the far side and keep their near arm busy
+  - Slide your knee across their belly
+  - Post your foot and settle into mount
+counters:
+  - name: Knee block
+    note: Bring your knee to your elbow to stop the slide.

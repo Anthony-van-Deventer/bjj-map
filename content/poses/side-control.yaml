@@ -1,0 +1,3 @@
+id: side-control
+top: {head: [48,86], neck: [62,90], pelvis: [92,72], lElbow: [44,100], lHand: [36,110], rElbow: [76,100], rHand: [88,104], lKnee: [104,110], lFoot: [128,96], rKnee: [112,108], rFoot: [136,100]}
+bottom: {head: [30,104], neck: [44,102], pelvis: [100,104], lElbow: [56,90], lHand: [66,80], rElbow: [64,96], rHand: [76,88], lKnee: [122,90], lFoot: [146,108], rKnee: [126,98], rFoot: [150,112]}

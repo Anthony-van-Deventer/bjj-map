@@ -1,0 +1,3 @@
+id: turtle
+top: {head: [78,66], neck: [90,66], pelvis: [126,64], lElbow: [84,82], lHand: [72,96], rElbow: [96,84], rHand: [86,98], lKnee: [140,112], lFoot: [168,113], rKnee: [146,110], rFoot: [172,112]}
+bottom: {head: [56,96], neck: [66,90], pelvis: [110,82], lElbow: [70,108], lHand: [64,112], rElbow: [76,108], rHand: [70,113], lKnee: [104,110], lFoot: [132,113], rKnee: [110,111], rFoot: [136,114]}

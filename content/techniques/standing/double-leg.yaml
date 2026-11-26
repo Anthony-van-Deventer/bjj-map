@@ -1,0 +1,19 @@
+id: double-leg
+name: Double Leg Takedown
+type: takedown
+from: standing
+side: neutral
+to: { position: half-guard, side: top }
+percentage: high
+summary: Level change, penetration step and drive through both legs. It's the most-scored takedown in no-gi competition.
+steps:
+  - Set it up with a fake or by pushing their head up
+  - Level change and step deep between their feet
+  - Head on the outside, hands behind their knees
+  - Drive at an angle and run the pipe to finish
+counters:
+  - name: Sprawl
+    note: Hips back and down, crossface, and snap to the front headlock.
+  - name: Guillotine
+    technique: guillotine
+    note: Catch the neck when their head ends up in front.

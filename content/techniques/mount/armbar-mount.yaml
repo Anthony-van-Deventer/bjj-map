@@ -1,0 +1,14 @@
+id: armbar-mount
+name: Armbar from Mount
+type: submission
+from: mount
+side: top
+percentage: high
+summary: Climb high, isolate an arm and swing over the head.
+steps:
+  - Climb to high mount
+  - Isolate the arm and put your weight on their chest
+  - Swing your leg over the face and fall back
+counters:
+  - name: Hitchhiker escape
+    note: Turn your thumb out and rotate your body.

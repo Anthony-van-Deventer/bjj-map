@@ -1,0 +1,16 @@
+id: saddle-escape
+name: Saddle Escape
+type: escape
+from: saddle
+side: top
+to: { position: butterfly-guard, side: top }
+percentage: medium
+rulesets: [nogi]
+summary: Hand fight, clear the knee line and pull your leg free.
+steps:
+  - Hide the heel and hand fight their grip
+  - Push their top leg off and clear your knee line
+  - Turn in the direction of the attack and pull the leg out
+counters:
+  - name: Re-adjust the triangle
+    note: Pinch your knees and come back up on the knee line.

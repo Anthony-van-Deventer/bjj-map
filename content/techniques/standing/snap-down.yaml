@@ -1,0 +1,15 @@
+id: snap-down
+name: Snap Down
+type: transition
+from: standing
+side: neutral
+to: { position: front-headlock, side: top }
+percentage: high
+summary: Pull their head down to the mat with a collar tie. It's the main entry to guillotines and go-behinds.
+steps:
+  - Get a collar tie and a wrist or triceps grip
+  - Push them in so they push back, then snap down hard
+  - Sprawl and lock in the front headlock
+counters:
+  - name: Posture up and re-shoot
+    note: Step forward under their pull and shoot from there.

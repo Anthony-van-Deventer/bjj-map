@@ -1,0 +1,15 @@
+id: torreando-pass
+name: Torreando Pass
+type: pass
+from: butterfly-guard
+side: top
+to: { position: side-control, side: top }
+percentage: medium
+summary: Push their knees to the side and run around the legs.
+steps:
+  - Grip their knees or shins
+  - Push the legs to one side
+  - Run around to the other side and settle into side control
+counters:
+  - name: Inverted re-guard
+    note: Turn your hips toward them and put your feet back in.

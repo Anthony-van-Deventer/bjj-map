@@ -1,0 +1,24 @@
+id: closed-guard
+name: Closed Guard
+category: guard
+summary: The bottom player's legs are locked around the top player's waist. Strong for the bottom player when they control posture.
+perspectives:
+  bottom:
+    role: Guard player
+    goals:
+      - Break their posture
+      - Off-balance them into sweeps
+      - Isolate an arm for triangle, armbar or kimura
+    keyPoints:
+      - Pull their head down with your knees and a collar tie or overhook
+      - Get to an angle, because square hips are easy to stack
+      - Chain attacks together, since each defence opens the next one
+  top:
+    role: Inside the guard
+    goals:
+      - Posture up and keep your hands safe
+      - Open the guard and start passing
+    keyPoints:
+      - Keep your elbows tight and your spine straight
+      - Never leave one arm in and one arm out
+      - Stand to break the guard when you can, it's safer than kneeling

@@ -1,0 +1,23 @@
+id: saddle
+name: Saddle (Inside Sankaku)
+category: leg-entanglement
+summary: The dominant no-gi leg entanglement. The attacker's legs triangle around one of the opponent's legs, which sets up the inside heel hook.
+perspectives:
+  bottom:
+    role: Leg attacker
+    goals:
+      - Control the knee line
+      - Expose the heel and finish the inside heel hook
+    keyPoints:
+      - Pinch your knees together and triangle your legs
+      - Fight for the heel with both hands, blade of the wrist on the heel
+      - Twist with your whole body, not just your arms
+  top:
+    role: Defending the saddle
+    goals:
+      - Hide the heel
+      - Clear the knee line and escape
+    keyPoints:
+      - Boot your foot (toes toward the shin) to hide the heel
+      - Never roll blindly, roll in the direction of the attack
+      - Hand fight before you go for the escape

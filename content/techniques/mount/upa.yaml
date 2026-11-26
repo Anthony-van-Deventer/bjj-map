@@ -1,0 +1,15 @@
+id: upa
+name: Bridge and Roll (Upa)
+type: escape
+from: mount
+side: bottom
+to: { position: closed-guard, side: top }
+percentage: high
+summary: Trap the arm and foot on one side, bridge and roll them over.
+steps:
+  - Trap their arm against your chest
+  - Trap their foot on the same side
+  - Bridge up and over your shoulder
+counters:
+  - name: Base wide
+    note: Post a hand and keep your knee wide.

@@ -1,0 +1,23 @@
+id: mount
+name: Mount
+category: pin
+summary: The top player sits astride the bottom player's torso. Points-wise, it's the most dominant pin.
+perspectives:
+  top:
+    role: Mounted
+    goals:
+      - Stabilise with a low mount (grapevines or knees high)
+      - Isolate an arm for arm triangle or armbar
+    keyPoints:
+      - Keep your weight on their hips, base with your hands as needed
+      - Climb high when their elbows open
+      - Ride the bridge, don't fight it
+  bottom:
+    role: Under mount
+    goals:
+      - Keep your elbows in
+      - Bridge and roll, or elbow-knee to half guard
+    keyPoints:
+      - Never push straight up with your arms
+      - Trap an arm and foot on the same side before you bridge
+      - Combine the bridge and the shrimp

@@ -1,0 +1,15 @@
+id: go-behind
+name: Go-Behind
+type: transition
+from: front-headlock
+side: top
+to: { position: turtle, side: top }
+percentage: high
+summary: Circle around them from the front headlock to their back.
+steps:
+  - Control the head and arm
+  - Snap them down and circle to the side
+  - Chest on their back and get the seatbelt
+counters:
+  - name: Head pop and re-shoot
+    technique: head-pop

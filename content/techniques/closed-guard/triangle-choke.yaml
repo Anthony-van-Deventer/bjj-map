@@ -1,0 +1,16 @@
+id: triangle-choke
+name: Triangle Choke
+type: submission
+from: closed-guard
+side: bottom
+percentage: high
+summary: Trap the head and one arm with your legs and squeeze. It's one of the most common guard finishes.
+steps:
+  - Break posture and get one arm in, one arm out
+  - Shoot the leg over the shoulder and lock the triangle
+  - Cut an angle, pull the head down and squeeze your knees
+counters:
+  - name: Posture and stack
+    note: Stand tall, push their knees together, and drive weight forward.
+  - name: Never one in, one out
+    note: Keep both arms inside or both outside.

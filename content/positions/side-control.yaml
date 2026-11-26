@@ -1,0 +1,23 @@
+id: side-control
+name: Side Control
+category: pin
+summary: The top player lies chest-to-chest across the bottom player, perpendicular to them. It's a dominant pin after the pass.
+perspectives:
+  top:
+    role: Pinning
+    goals:
+      - Stabilise with a crossface and underhook
+      - Move to mount or attack the arms
+    keyPoints:
+      - Keep your hips low and your weight on their chest
+      - Take away the near-side underhook
+      - Switch hip positions to anticipate escapes
+  bottom:
+    role: Pinned
+    goals:
+      - Build frames
+      - Recover guard or come up to your knees
+    keyPoints:
+      - Frame against the neck and hip, don't push with straight arms
+      - Shrimp to make space and put your knee back in
+      - Never give up your back while escaping

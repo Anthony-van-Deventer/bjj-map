@@ -1,0 +1,17 @@
+id: knee-cut-pass
+name: Knee Cut Pass
+type: pass
+from: half-guard
+side: top
+to: { position: side-control, side: top }
+percentage: high
+summary: Drive your knee diagonally across their thigh while you control the underhook and head.
+steps:
+  - Get an underhook and crossface
+  - Put your knee across their thigh and slide it through
+  - Free your foot and settle into side control
+counters:
+  - name: Knee shield and underhook
+    note: Get the underhook and come up behind their knee.
+  - name: Back take
+    technique: half-guard-back-take

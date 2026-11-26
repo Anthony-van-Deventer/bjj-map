@@ -1,0 +1,23 @@
+id: front-headlock
+name: Front Headlock
+category: scramble
+summary: The top player controls the head and arm of an opponent on their knees. It's the key no-gi position for guillotines, darces and go-behinds.
+perspectives:
+  top:
+    role: Front headlock control
+    goals:
+      - Snap them down and keep their head low
+      - Finish the guillotine or darce, or go behind
+    keyPoints:
+      - Sprawl your hips away, chest on their head
+      - Control the head and one arm (chin strap and triceps)
+      - Circle to the side to break their posture
+  bottom:
+    role: Head controlled
+    goals:
+      - Protect your neck and pull the head out
+      - Re-shoot or come back up to standing
+    keyPoints:
+      - Get your head up and posture back
+      - Hand fight the chin strap
+      - Don't get stuck on all fours

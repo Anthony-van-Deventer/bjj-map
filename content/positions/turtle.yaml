@@ -1,0 +1,23 @@
+id: turtle
+name: Turtle
+category: scramble
+summary: The bottom player is on their knees and elbows. It's a transitional position, common after escaping or when the guard is passed.
+perspectives:
+  top:
+    role: Riding the turtle
+    goals:
+      - Get a seatbelt and insert your hooks
+      - Break them down or take the back
+    keyPoints:
+      - Chest on their back, weight forward
+      - Insert your near hook first while you control the hips
+      - Watch for the granby roll
+  bottom:
+    role: Turtled
+    goals:
+      - Protect your neck and keep elbows to knees
+      - Recover guard or stand up
+    keyPoints:
+      - Don't stay static in turtle
+      - Granby roll to re-guard
+      - Wrestle up by getting a hand on the leg

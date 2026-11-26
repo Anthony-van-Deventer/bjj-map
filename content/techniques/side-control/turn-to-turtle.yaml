@@ -1,0 +1,14 @@
+id: turn-to-turtle
+name: Turn to Turtle
+type: escape
+from: side-control
+side: bottom
+to: { position: turtle, side: bottom }
+percentage: medium
+summary: Underhook and turn to your knees.
+steps:
+  - Get the near-side underhook
+  - Shrimp and turn to your knees
+counters:
+  - name: Seatbelt back take
+    technique: seatbelt-back-take

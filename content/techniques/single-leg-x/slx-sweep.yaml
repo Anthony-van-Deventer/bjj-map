@@ -1,0 +1,15 @@
+id: slx-sweep
+name: Single Leg X Sweep
+type: sweep
+from: single-leg-x
+side: bottom
+to: { position: butterfly-guard, side: top }
+percentage: high
+summary: Push the hip with your foot, which makes them fall, then come up on top.
+steps:
+  - Push the hip away with your foot
+  - Pull the trapped leg to break their base
+  - Technical stand-up and come up on top
+counters:
+  - name: Leg to the mat
+    note: Drop your weight and hip in.

@@ -1,0 +1,14 @@
+id: straight-ankle-lock
+name: Straight Ankle Lock
+type: submission
+from: single-leg-x
+side: bottom
+percentage: medium
+summary: The classic Achilles lock. It's legal at most levels.
+steps:
+  - Wrist grip deep under the Achilles
+  - Foot clamped in your armpit
+  - Arch your back and lift your hips
+counters:
+  - name: Point toes and kick out
+    note: Point your foot and pull out to the side.

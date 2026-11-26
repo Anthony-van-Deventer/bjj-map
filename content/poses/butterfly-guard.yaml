@@ -1,0 +1,3 @@
+id: butterfly-guard
+top: {head: [130,50], neck: [126,60], pelvis: [134,88], lElbow: [112,70], lHand: [100,80], rElbow: [116,76], rHand: [104,86], lKnee: [118,112], lFoot: [150,114], rKnee: [124,112], rFoot: [156,113]}
+bottom: {head: [70,52], neck: [72,62], pelvis: [78,104], lElbow: [90,66], lHand: [104,58], rElbow: [86,74], rHand: [100,70], lKnee: [100,86], lFoot: [116,100], rKnee: [96,92], rFoot: [112,108]}

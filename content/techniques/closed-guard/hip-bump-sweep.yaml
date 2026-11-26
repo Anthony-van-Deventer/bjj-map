@@ -1,0 +1,15 @@
+id: hip-bump-sweep
+name: Hip Bump Sweep
+type: sweep
+from: closed-guard
+side: bottom
+to: { position: mount, side: top }
+percentage: high
+summary: Sit up, post a hand and bump your hips into them to roll them over.
+steps:
+  - When they posture up, open your legs and sit up
+  - Post a hand behind you and reach over their shoulder
+  - Bump your hips forward and roll them to mount
+counters:
+  - name: Sit back down
+    note: Drop your weight back and post the near hand, which sets up the kimura.

@@ -1,0 +1,17 @@
+id: butterfly-sweep
+name: Butterfly Sweep
+type: sweep
+from: butterfly-guard
+side: bottom
+to: { position: mount, side: top }
+percentage: high
+summary: Underhook and overhook, fall to one side and lift with your hook.
+steps:
+  - Get an underhook and control the arm on the other side
+  - Fall to the overhook side
+  - Lift with the underhook-side hook and follow them over
+counters:
+  - name: Post and base
+    note: Step out wide with the leg that's being lifted.
+  - name: Body lock pass
+    technique: body-lock-pass

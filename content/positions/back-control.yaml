@@ -1,0 +1,23 @@
+id: back-control
+name: Back Control
+category: back
+summary: The attacker is behind with hooks or a body triangle and a seatbelt grip. The rear naked choke from here is the most common no-gi finish.
+perspectives:
+  top:
+    role: Back taker
+    goals:
+      - Control with a seatbelt and hooks or a body triangle
+      - Win the hand fight and finish the rear naked choke
+    keyPoints:
+      - Keep your chest glued to their back
+      - Choking arm deep under the chin
+      - Follow them when they slide out, rather than staying stuck
+  bottom:
+    role: Defending the back
+    goals:
+      - Two-on-one the choking arm
+      - Slide your back to the mat and turn in
+    keyPoints:
+      - Chin down and hands up, defend before they lock in
+      - Escape to the side of the underhook arm
+      - Clear the bottom hook first

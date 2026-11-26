@@ -1,0 +1,14 @@
+id: standing
+name: Standing
+category: standing
+summary: Both athletes on their feet. In no-gi, wrestling entries and snap-downs dominate, and guard pulling is a valid alternative.
+perspectives:
+  neutral:
+    role: Neutral, both standing
+    goals:
+      - Win the hand fight and inside position
+      - Score the takedown or snap them into a front headlock
+    keyPoints:
+      - Stay in a staggered stance with your head up and hips under you
+      - Use level changes and fakes to set up shots
+      - If you aren't a wrestler, pull to a guard you're comfortable in

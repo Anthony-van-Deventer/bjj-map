@@ -1,0 +1,15 @@
+id: head-pop
+name: Head Pop
+type: escape
+from: front-headlock
+side: bottom
+to: { position: standing, side: neutral }
+percentage: medium
+summary: Hand fight the chin strap and pop your head back out.
+steps:
+  - Two-on-one on the chin strap arm
+  - Get your feet under you
+  - Pop your head back and posture up
+counters:
+  - name: Re-snap
+    technique: snap-down

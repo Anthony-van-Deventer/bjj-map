@@ -1,0 +1,23 @@
+id: butterfly-guard
+name: Butterfly Guard
+category: guard
+summary: The bottom player sits up with both feet hooked inside the top player's thighs. It's a cornerstone of no-gi open guard and the gateway to leg entanglements.
+perspectives:
+  bottom:
+    role: Butterfly guard player
+    goals:
+      - Get an underhook or arm drag and elevate
+      - Enter leg entanglements (single leg X, then the saddle)
+    keyPoints:
+      - Sit up and keep your head higher than theirs
+      - Elevate with a hook once they're off-balance
+      - Shoot to the back if they over-commit
+  top:
+    role: Passing open guard
+    goals:
+      - Shut down the hooks and pin the hips
+      - Pass to side control
+    keyPoints:
+      - Keep your weight forward and hips low (body lock)
+      - Stay out of the hooks and watch your legs for entanglements
+      - Pressure beats speed against a seated guard

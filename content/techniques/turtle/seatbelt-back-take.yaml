@@ -1,0 +1,15 @@
+id: seatbelt-back-take
+name: Seatbelt Back Take
+type: transition
+from: turtle
+side: top
+to: { position: back-control, side: top }
+percentage: high
+summary: Lock the seatbelt and insert your hooks, or roll them over.
+steps:
+  - Seatbelt, chest on their back
+  - Insert the near hook
+  - Roll to the side or insert the second hook
+counters:
+  - name: Granby roll
+    technique: granby-roll

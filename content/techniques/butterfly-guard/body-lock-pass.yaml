@@ -1,0 +1,17 @@
+id: body-lock-pass
+name: Body Lock Pass
+type: pass
+from: butterfly-guard
+side: top
+to: { position: side-control, side: top }
+percentage: high
+summary: Lock your hands around their waist, pin the hips and walk around the legs. It's a staple no-gi pass.
+steps:
+  - Head on their chest, lock your hands behind their back
+  - Step back to flatten them
+  - Pin one leg with your knee and walk around the other
+counters:
+  - name: Frame and re-guard
+    note: Push the head away and put your hooks back in.
+  - name: Leg entanglement
+    technique: slx-entry

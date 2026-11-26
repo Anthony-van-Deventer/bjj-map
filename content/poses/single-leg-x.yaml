@@ -1,0 +1,3 @@
+id: single-leg-x
+top: {head: [130,20], neck: [128,30], pelvis: [126,64], lElbow: [118,46], lHand: [112,60], rElbow: [134,46], rHand: [130,62], lKnee: [118,88], lFoot: [112,114], rKnee: [144,88], rFoot: [154,114]}
+bottom: {head: [40,106], neck: [52,104], pelvis: [96,104], lElbow: [80,96], lHand: [108,98], rElbow: [76,100], rHand: [104,104], lKnee: [110,78], lFoot: [128,64], rKnee: [116,92], rFoot: [126,88]}

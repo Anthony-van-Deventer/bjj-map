@@ -1,0 +1,15 @@
+id: half-guard-back-take
+name: Underhook Back Take
+type: transition
+from: half-guard
+side: bottom
+to: { position: back-control, side: top }
+percentage: high
+summary: Win the underhook, come up to your knees and go behind them. It's one of the most popular no-gi half guard attacks.
+steps:
+  - Get the deep underhook and come up on your side
+  - Shoot your head through toward their back
+  - Pull the trapped leg free and take the back with a seatbelt
+counters:
+  - name: Whizzer and crossface
+    note: Overhook the underhook arm and flatten them.

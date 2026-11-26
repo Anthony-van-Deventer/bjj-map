@@ -1,0 +1,15 @@
+id: granby-roll
+name: Granby Roll
+type: escape
+from: turtle
+side: bottom
+to: { position: butterfly-guard, side: bottom }
+percentage: medium
+summary: Roll over your shoulder to re-guard.
+steps:
+  - Tuck your head and post on your shoulder
+  - Roll over your shoulder across your back
+  - Recover guard with your feet first
+counters:
+  - name: Follow and pass
+    note: Stay with their hips and pin them.

@@ -1,0 +1,16 @@
+id: guillotine
+name: Guillotine
+type: submission
+from: front-headlock
+side: top
+percentage: high
+summary: Arm-in or high-elbow guillotine on the neck. It's one of the most common no-gi submissions.
+steps:
+  - Wrap the neck deep, wrist under the chin
+  - Lock your grip (high elbow or arm-in)
+  - Sit to guard, or squeeze from standing on your toes
+counters:
+  - name: Pass to the arm side
+    note: Get your head to the side and step over.
+  - name: Hand fight the wrist
+    note: Pull their wrist down and turn your chin.

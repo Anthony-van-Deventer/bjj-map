@@ -1,0 +1,23 @@
+id: half-guard
+name: Half Guard
+category: guard
+summary: The bottom player traps one of the top player's legs. In no-gi, the battle for the underhook decides who wins.
+perspectives:
+  bottom:
+    role: Half guard player
+    goals:
+      - Win the underhook
+      - Come up to the dogfight or take the back
+    keyPoints:
+      - Don't lie flat, stay on your side
+      - Frame against the crossface with your free forearm
+      - Use a knee shield when you lose the underhook
+  top:
+    role: Passing half guard
+    goals:
+      - Crossface and flatten them
+      - Free your trapped leg and pass
+    keyPoints:
+      - Win the underhook on the far side or whizzer theirs
+      - Head low and heavy, hips back
+      - Knee cut or step over once they're flat

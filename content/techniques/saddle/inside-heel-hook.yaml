@@ -1,0 +1,19 @@
+id: inside-heel-hook
+name: Inside Heel Hook
+type: submission
+from: saddle
+side: bottom
+percentage: high
+rulesets: [nogi]
+summary: Rotate the heel inward to attack the knee. It's one of the most common finishes in modern no-gi.
+steps:
+  - Control the knee line in the saddle
+  - Wrist on the heel, hands locked
+  - Rotate with your hips and shoulders, slowly in training!
+counters:
+  - name: Boot and hide the heel
+    note: Toes to the shin, and keep your heel tight.
+  - name: Saddle escape
+    technique: saddle-escape
+sources:
+  - ADCC submission stats (heel hooks among the most common finishes)

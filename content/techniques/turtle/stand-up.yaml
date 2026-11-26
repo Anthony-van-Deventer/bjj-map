@@ -1,0 +1,15 @@
+id: turtle-stand-up
+name: Wrestle Up from Turtle
+type: escape
+from: turtle
+side: bottom
+to: { position: standing, side: neutral }
+percentage: medium
+summary: Hand on their leg, hand fight, and stand up.
+steps:
+  - Clear the seatbelt hand
+  - Come up on one foot
+  - Turn into them and stand up
+counters:
+  - name: Mat return
+    note: Lock your hands around the waist and take them back down.

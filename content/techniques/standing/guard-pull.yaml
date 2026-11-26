@@ -1,0 +1,16 @@
+id: guard-pull
+name: Butterfly Guard Pull
+type: transition
+from: standing
+side: neutral
+to: { position: butterfly-guard, side: bottom }
+percentage: medium
+summary: Sit to butterfly guard with grips on the head or arm. It's the default for guard players who don't want to wrestle.
+steps:
+  - Get a collar tie or arm grip first
+  - Sit close to their legs, not far away
+  - Put your hooks in immediately
+counters:
+  - name: Pass immediately
+    technique: body-lock-pass
+    note: Attack before they settle their hooks.

@@ -1,0 +1,15 @@
+id: slx-entry
+name: Single Leg X Entry
+type: transition
+from: butterfly-guard
+side: bottom
+to: { position: single-leg-x, side: bottom }
+percentage: high
+summary: Elevate with a butterfly hook, then slide under to single leg X.
+steps:
+  - Elevate one leg with a butterfly hook
+  - Slide your body under them and hug the leg
+  - Foot on the hip, outside leg behind the knee
+counters:
+  - name: Step back and pass
+    note: Pull the leg out before the entanglement is locked.

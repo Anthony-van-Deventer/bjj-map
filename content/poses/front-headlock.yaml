@@ -1,0 +1,3 @@
+id: front-headlock
+top: {head: [92,58], neck: [80,64], pelvis: [48,86], lElbow: [96,76], lHand: [100,92], rElbow: [104,70], rHand: [118,82], lKnee: [40,108], lFoot: [14,113], rKnee: [52,110], rFoot: [24,114]}
+bottom: {head: [96,92], neck: [104,86], pelvis: [140,80], lElbow: [104,104], lHand: [96,112], rElbow: [110,106], rHand: [102,113], lKnee: [136,110], lFoot: [164,113], rKnee: [142,111], rFoot: [168,114]}
